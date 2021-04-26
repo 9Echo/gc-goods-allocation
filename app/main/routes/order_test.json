@@ -1,0 +1,90 @@
+{
+    "data": {
+        "customer_id": "scymymygxgs",
+        "salesman_id": "4",
+        "company_id": "00",
+        "truck_weight": "33",
+        "items": [
+            {
+                "product_type": "焊管",
+                "spec": "016075.5*2.3*6000",
+                "item_id": "010020*1.3*5950",
+                "f_whs": "sth",
+                "f_loc": "sth",
+                "material": "sth",
+                "quantity": "80",
+                "free_pcs": "0"
+            },
+            {
+                "product_type": "焊管",
+                "spec": "016075.5*2.3*6000",
+                "item_id": "014046.5*1.4*5950",
+                "f_whs": "sth",
+                "f_loc": "sth",
+                "material": "sth",
+                "quantity": "200",
+                "free_pcs": "0"
+            },
+            {
+                "product_type": "焊管",
+                "spec": "016075.5*2.3*6000",
+                "item_id": "01A165*3.75*6000",
+                "f_whs": "sth",
+                "f_loc": "sth",
+                "material": "sth",
+                "quantity": "200",
+                "free_pcs": "0"
+            },
+            {
+                "product_type": "焊管",
+                "spec": "016075.5*2.3*6000",
+                "item_id": "013041.5*3.25*6000",
+                "f_whs": "sth",
+                "f_loc": "sth",
+                "material": "sth",
+                "quantity": "28",
+                "free_pcs": "5"
+            },
+            {
+                "product_type": "焊管",
+                "spec": "016075.5*2.3*6000",
+                "item_id": "01A165*4.25*6000",
+                "f_whs": "sth",
+                "f_loc": "sth",
+                "material": "sth",
+                "quantity": "22",
+                "free_pcs": "6"
+            },
+            {
+                "product_type": "焊管",
+                "spec": "016075.5*2.3*6000",
+                "item_id": "01A165*4.5*6000",
+                "f_whs": "sth",
+                "f_loc": "sth",
+                "material": "sth",
+                "quantity": "27",
+                "free_pcs": "1"
+            },
+            {
+                "product_type": "焊管",
+                "spec": "016075.5*2.3*6000",
+                "item_id": "01C219*4.5*6000",
+                "f_whs": "sth",
+                "f_loc": "sth",
+                "material": "sth",
+                "quantity": "26",
+                "free_pcs": "6"
+            },
+            {
+                "product_type": "焊管",
+                "spec": "016075.5*2.3*6000",
+                "item_id": "01C219*5.0*6000",
+                "f_whs": "sth",
+                "f_loc": "sth",
+                "material": "sth",
+                "quantity": "29",
+                "free_pcs": "8"
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+# 启动celery worker (windows)
+celery worker -A app.task.celery_app --loglevel=INFO --concurrency=2 --pool=eventlet --events -Q gc_goods_allocation -n=models-gc_goods_allocation.%h
+
+# 启动celery worker (linux)
+celery worker -A app.task.celery_app --loglevel=INFO --events --hostname=models_gc_goods-allocation.%h -Q gc_goods_allocation
+
+# 启动celery beat
+celery beat -A app.task.celery_app --loglevel=INFO
+
+# 启动celery任务监控和管理系统flower
+# 前提条件：安装flower模块 pip install flower
+# 监控系统flower的入口页面http://localhost:5555
+celery flower -A app.task.celery_task --address=127.0.0.1 --port=5555
