@@ -29,7 +29,7 @@ def zero_one_knapsnack_dispatch_filter(stock_list: List[Stock]):
 
     """
     1. 遍历库存中所有的城市，根据城市将货物分类{city:[city_stock]}
-    2. 对对应城市库存进行01背包配载
+    2. 对对应城市库存进行货物配载
     """
 
     city_stock_dic = dict()
